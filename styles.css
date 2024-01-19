@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e0b926;
+    font-family: sans-serif;
+    color:aliceblue;
+    background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*HygtAUSg3MqQjimu0MQy3Q.jpeg);
+    background-image: url(https://focus.independent.ie/thumbor/Ss1fDalDKZ3tyTwnazZkwztA3MQ=/0x114:2000x1217/2000x1103/prod-mh-ireland/809a6cc8-bab5-11ed-b001-0210609a3fe2.jpg);
+}
+
+.whiplash-poster {
+    width: 20%;
+    float: right;
+}
+
+.whiplash-trailer {
+    color:blue;
+    transition: color 0.3s ease;
+}
+
+.whiplash-trailer:hover {
+    color:blue;
+}
+
+main {
+    max-width: 85ch;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #e0b926;
+}
+

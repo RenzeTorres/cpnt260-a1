@@ -9,8 +9,8 @@ body {
 }
 
 .whiplash-poster {
-    width: 20%;
-    float: right;
+    width: 100%;
+    margin-right: 0;
 }
 
 .whiplash-trailer {
@@ -27,5 +27,34 @@ main {
     margin: 0 auto;
     padding: 1rem;
     background-color: #e0b926;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: block;
 }
 
+@media (min-width: 768px) {
+    body {
+        background-image: none;
+        background-color: #2686e0;
+    }
+
+
+.whiplash-poster {
+    width: 30%;
+    margin-right: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+h1, h2, h3, p {
+    font-size: 110%;
+}
+
+.hide-on-desktop {
+    display: none;
+}
+}
